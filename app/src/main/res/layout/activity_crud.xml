@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CrudActivity"
+    android:orientation="vertical"
+    android:background="@color/pink">
+
+    <TextView
+        android:id="@+id/purpose_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/cairo_semibold"
+        android:text="Purpose"
+        android:textAlignment="center"
+        android:textColor="#D0356A"
+        android:textSize="20sp" />
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/category_spinner"
+        android:background="@drawable/button_crud"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@+id/purpose_tv"
+        android:visibility="gone"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/scategory_spinner"
+        android:background="@drawable/button_crud"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/category_spinner"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/id_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/scategory_spinner"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edit_text_border"
+        android:fontFamily="@font/roboto_mono_light"
+        android:hint="Enter ID"
+        android:inputType="phone"
+        android:maxLength="20"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:textSize="19sp" />
+
+    <EditText
+        android:id="@+id/name_edittext"
+        android:layout_below="@+id/id_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edit_text_border"
+        android:fontFamily="@font/roboto_mono_light"
+        android:hint="Enter Name"
+        android:inputType="text"
+        android:maxLength="20"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:textSize="19sp" />
+
+    <EditText
+        android:id="@+id/status_edittext"
+        android:layout_below="@+id/name_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edit_text_border"
+        android:fontFamily="@font/roboto_mono_light"
+        android:hint="Enter Status"
+        android:inputType="text"
+        android:maxLength="20"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:textSize="19sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:id="@+id/l1"
+        android:layout_below="@+id/status_edittext"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/upload"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="UPLOAD IMAGE"
+            android:padding="5dp"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/button_crud"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="280dp"
+            android:layout_height="180dp"
+            android:src="@drawable/rare"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="15dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_below="@+id/l1">
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="ADD"
+            android:background="@drawable/button_crud"/>
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UPDATE"
+            android:background="@drawable/button_crud"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"/>
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DELETE"
+            android:background="@drawable/button_crud"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"/>
+
+        <Button
+            android:id="@+id/read"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="READ"
+            android:background="@drawable/button_crud"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

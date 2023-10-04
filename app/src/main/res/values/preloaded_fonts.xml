@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alegreya_sc_black</item>
+        <item>@font/amaranth_italic</item>
+        <item>@font/amita</item>
+        <item>@font/amita_bold</item>
+        <item>@font/andika</item>
+        <item>@font/aref_ruqaa_bold</item>
+        <item>@font/atma_medium</item>
+        <item>@font/average</item>
+        <item>@font/baloo_tamma_2_bold</item>
+        <item>@font/berkshire_swash</item>
+        <item>@font/biorhyme_bold</item>
+        <item>@font/bungee_hairline</item>
+        <item>@font/cabin_sketch_bold</item>
+        <item>@font/cairo_semibold</item>
+        <item>@font/calistoga</item>
+        <item>@font/cinzel</item>
+        <item>@font/concert_one</item>
+        <item>@font/darker_grotesque_extrabold</item>
+        <item>@font/freckle_face</item>
+        <item>@font/fredoka_one</item>
+        <item>@font/gloria_hallelujah</item>
+        <item>@font/gorditas</item>
+        <item>@font/homemade_apple</item>
+        <item>@font/im_fell_french_canon_sc</item>
+        <item>@font/irish_grover</item>
+        <item>@font/julius_sans_one</item>
+        <item>@font/liu_jian_mao_cao</item>
+        <item>@font/margarine</item>
+        <item>@font/merienda_one</item>
+        <item>@font/raleway_thin</item>
+        <item>@font/roboto_mono_light</item>
+        <item>@font/vast_shadow</item>
+    </array>
+</resources>

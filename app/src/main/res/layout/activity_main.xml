@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/pink" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/cairo_semibold"
+        android:text="GLAMAZON"
+        android:textAlignment="center"
+        android:textColor="#D0356A"
+        android:textSize="35sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/atma_medium"
+        android:text="@string/caption_text"
+        android:textAlignment="center"
+        android:textColor="#AE607B"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/mobile_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="20dp"
+        android:inputType="phone"
+        android:background="@drawable/edit_text_border"
+        android:fontFamily="@font/roboto_mono_light"
+        android:hint="@string/Edit_Text"
+        android:maxLength="10"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:textSize="19sp" />
+
+    <EditText
+        android:id="@+id/password_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="315dp"
+        android:layout_marginRight="20dp"
+        android:inputType="textPassword"
+        android:background="@drawable/edit_text_border"
+        android:fontFamily="@font/roboto_mono_light"
+        android:hint="@string/Edit_Text1"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:textSize="19sp" />
+
+    <Button
+        android:id="@+id/LOGIN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="410dp"
+        android:fontFamily="@font/fredoka_one"
+        android:background="@drawable/button_new_bg2"
+        android:text="LOGIN"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin View"
+        android:textAlignment="center"
+        android:layout_marginTop="500dp" />
+
+</RelativeLayout>

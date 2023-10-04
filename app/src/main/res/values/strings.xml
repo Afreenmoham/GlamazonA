@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Glamazon</string>
+    <string name="caption_text">The Red Carpet Beauty</string>
+    <string name="Edit_Text">MOBILE</string>
+    <string name="Edit_Text1">PASSWORD</string>
+    <string name="Button">LOGIN</string>
+</resources>

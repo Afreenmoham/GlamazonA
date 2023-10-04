@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity"
+    android:background="@drawable/e1ee9484d66810d8db948590082eaf44">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/cairo_semibold"
+        android:text="GLAMAZON"
+        android:textAlignment="center"
+        android:textColor="#D0356A"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/atma_medium"
+        android:text="@string/caption_text"
+        android:textAlignment="center"
+        android:layout_marginTop="85dp"
+        android:textColor="#AE607B"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/andika"
+        android:text="Welcome to Glamazon :)"
+        android:textAlignment="center"
+        android:textColor="@color/darkpink"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="190dp"
+        android:fontFamily="@font/andika"
+        android:text="Shop luxurious brands in just a click away!!"
+        android:textAlignment="center"
+        android:textColor="@color/darkpink"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/Shop"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="SHOP"
+        android:layout_marginTop="270dp"
+        android:textColor="@color/black"
+        android:background="@drawable/button_new_bg2"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/custom"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="CUSTOM"
+        android:layout_marginTop="350dp"
+        android:textColor="@color/black"
+        android:background="@drawable/button_new_bg2"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
